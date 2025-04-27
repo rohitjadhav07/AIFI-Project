@@ -1,0 +1,27 @@
+{
+  "name": "aifi-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AIFi - AI-powered DeFi on Rootstock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "aifi",
+    "defi",
+    "rootstock",
+    "ai",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+} 

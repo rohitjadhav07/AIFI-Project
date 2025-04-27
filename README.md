@@ -1,4 +1,4 @@
-# AIFi - AI-Powered DeFi Platform
+# AIFi - AI-Powered DeFi Platform Rootstock
 
 AIFi is a decentralized finance platform enhanced with artificial intelligence capabilities, featuring lending, remittances, and a voice interface for intuitive interactions.
 

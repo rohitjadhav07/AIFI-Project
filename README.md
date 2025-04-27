@@ -9,12 +9,6 @@ The project consists of two main parts:
 - **Smart Contracts**: Solidity contracts for lending, remittances, and token management
 - **Frontend**: Next.js application that provides a user interface to interact with the smart contracts
 
-AIFi/
-├── contracts/       # Smart contracts
-├── scripts/         # Deployment scripts
-├── frontend/        # Next.js application
-└── test/            # Contract tests
-
 ## Features
 
 - **AI-Powered Lending**: Risk assessment and personalized interest rates based on user history

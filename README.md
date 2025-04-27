@@ -9,13 +9,11 @@ The project consists of two main parts:
 - **Smart Contracts**: Solidity contracts for lending, remittances, and token management
 - **Frontend**: Next.js application that provides a user interface to interact with the smart contracts
 
-```
 AIFi/
 ├── contracts/       # Smart contracts
 ├── scripts/         # Deployment scripts
 ├── frontend/        # Next.js application
 └── test/            # Contract tests
-```
 
 ## Features
 
@@ -34,48 +32,48 @@ AIFi/
 ### Installation
 
 1. Clone the repository
-   ```
+   
    git clone https://github.com/yourusername/aifi.git
    cd aifi
-   ```
+   
 
 2. Install dependencies for smart contracts
-   ```
+   
    npm install
-   ```
+   
 
 3. Install frontend dependencies
-   ```
+   
    cd frontend
    npm install
-   ```
+   
 
 ### Smart Contract Deployment
 
 1. Configure your `.env` file with private keys and network information
 2. Deploy the token contract
-   ```
+   
    npx hardhat run scripts/deploy-token.js --network <network>
-   ```
+   
 3. Deploy the lending contract
-   ```
+   
    npx hardhat run scripts/deploy-lending.js --network <network>
-   ```
+   
 4. Deploy the remittance contract
-   ```
+   
    npx hardhat run scripts/deploy-remittance.js --network <network>
-   ```
+   
 
 ### Running the Frontend
 
 1. Navigate to the frontend directory
-   ```
+   
    cd frontend
-   ```
+   
 2. Start the development server
-   ```
+   
    npm run dev
-   ```
+   
 3. Access the application at `http://localhost:3000`
 
 ## Wallet Connection
@@ -85,9 +83,9 @@ AIFi includes a wallet persistence mechanism that maintains your connection acro
 ## Testing
 
 Run smart contract tests with:
-```
+
 npx hardhat test
-```
+
 
 ## License
 
@@ -163,7 +161,7 @@ For detailed AI documentation, see [AI_COMPONENTS.md](./AI_COMPONENTS.md).
 
 ## 🧪 Testing
 
-```bash
+bash
 # Run smart contract tests
 npx hardhat test
 
@@ -174,7 +172,7 @@ python -m unittest discover -s tests
 # Run frontend tests
 cd frontend
 npm test
-```
+
 
 ## 📈 Roadmap
 

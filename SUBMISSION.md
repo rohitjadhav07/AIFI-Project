@@ -137,11 +137,11 @@ Use Hardhat and ethers.js for the test suite.
 
 ## Demo Video
 
-[Link to Demo Video]
+https://youtu.be/BzTLPK4ARik
 
 ## GitHub Repository
 
-[https://github.com/your-username/aifi-rootstock](https://github.com/your-username/aifi-rootstock)
+https://github.com/rohitjadhav07/AIFI-Project
 
 ## Team Information
 
